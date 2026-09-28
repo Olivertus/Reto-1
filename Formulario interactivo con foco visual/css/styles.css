@@ -1,0 +1,14 @@
+/* Estilo Base (Estado Normal) */
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #cccccc; /* Borde sólido, gris claro y de 1px */
+    outline: none; /* Remueve el outline predeterminado del navegador */
+    padding: 6px; /* Añadido un pequeño padding para mejorar la legibilidad del texto */
+    font-size: 16px;
+}
+
+/* Estilo Interactivo (Estado de Foco) */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #007BFF; /* Borde más grueso (2px) y azul vibrante */
+}
